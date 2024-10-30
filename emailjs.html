@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Object to JSON</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({ publicKey: "nsWcvLwWH4hYe9Cfz" });
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required /><br /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" required></textarea><br /><br />
+      <button type="submit">Send Message</button>
+    </form>
+    <script src="app2.js"></script>
+  </body>
+</html>

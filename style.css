@@ -1,0 +1,21 @@
+html {
+    display: table;
+    margin: auto;
+    background-image: url(emailjs-image.png);
+  }
+  body {
+    border: 5px solid gray;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgb(85, 231, 231);
+    box-shadow: 2px 2px 2px;
+  }
+  button {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 5px;
+  }

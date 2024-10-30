@@ -8,9 +8,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Portfolio</title>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+    .banner {
+        padding: 10%;
+        border-radius: 20%;
+        width: 80%;
+    }
+    p  {
+        font-family: "Cinzel Decorative", serif;
+    }
+    h1 {
+        font-family: "Girassol", serif;
+    }
+    h5 {
+        font-family: "Cinzel Decorative", serif;
+    }
+    col p-6 {
+        border-radius: 5%;
+    }
+</style>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm" style="background-color: #0B698B;">
+        <nav class="navbar navbar-expand-sm" style="background-color: #677D6A;">
             <div class="container-fluid">
                 <a class="navbar-brand" href=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -31,13 +53,43 @@
         </nav>
     </header>
     <div class="row">
-        <div class="col p-3 "></div>
-        <div class="col p-6 " style="padding: 50px;"><h3>Hello! Welcome to this page</h3></div>
-        <div class="col p-3"></div>
+        <div class="col p-6 d-flex justify-content-center">
+            <img class="banner " src="image.png" alt="Picture" >
+        </div>
+        <div class="col p-6 d-flex justify-content-center flex-column" style="padding: 50px;">
+            <p>Hello, i am</p>
+            <h1>A Cat</h1>
+            <h5>Welcome!</h5>
+        </div>
+
+    </div>
+    <div class="row2 d-flex" style="padding: 10%;">
+        <div class="col p-4" ><div class="card" style="width: 18rem;">
+            <img src="weatherimage.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Weather Update</h5>
+              <p class="card-text"></p>
+              <a href="weather-update.html" class="btn btn-primary stretched-link">Go somewhere</a>
+            </div>
+          </div></div>
+        <div class="col p-4 "><h3><div class="card" style="width: 18rem;">
+            <img src="image2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">EmailJs</h5>
+              <p class="card-text"></p>
+              <a href="emailjs.html" class="btn btn-primary stretched-link button-hover">Go somewhere</a>
+            </div></h3></div>
+        <div class="col p-4"><div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+            </div></div>
     </div>
     <style>
         body {
-            background-color: #87CBDC;
+            background-color: #D6BD98;
         }
     </style>
 </body>
