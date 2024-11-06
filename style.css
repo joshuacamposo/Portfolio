@@ -14,8 +14,10 @@ html {
     background-color: rgb(85, 231, 231);
     box-shadow: 2px 2px 2px;
   }
-  button {
-    background-color: cadetblue;
-    border-radius: 10px;
-    padding: 5px;
+  img {
+    width: 40px;
+  }
+  h1 {
+    margin-left: 50px;
+    margin-top: -40px;
   }
